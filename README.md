@@ -16,13 +16,21 @@ o	The variables considered for the following model are:
 -	'ORGANIZATION', 
 -	'INCOME_AMT'. 
 -	"USE_CASE_Other" & "AFFILIATION_Other" columns were dropped
-•	Compiling, Training, and Evaluating the Model Attempt #1
+
+
+•	Compiling, Training, and Evaluating the Model 
+
+Attempt:1
+
 o	2 Hidden Layers
 -	8 neurons (Layer1), 
 -	5 neurons (Layer2)
 o	Used Relu and Sigmoid Activations Functions since sigmoid is best for binary classification problems as this and Relu is for nonlinear datasets.
+
 Testing Attempts
+
 Attempt: 2
+
 •	3 Hidden Layers
 -	80 neurons
 -	30 neurons
@@ -31,6 +39,7 @@ Relu/Sigmoid Functions used: Best for binary classification and non linear datas
 804/804 [==============================] - 3s 4ms/step - loss: 0.5513 - accuracy: 0.7315
 
 Attempt: 3
+
 •	3 Hidden Layers
 -	80 neurons – Layer 1
 -	35 neurons – Layer 2
@@ -40,6 +49,7 @@ Attempt: 3
 Loss:0.5917807221412659, Accuracy: 0.7355102300643921
 
 Attempt: 4
+
 •	3 Hidden Layers
 -	80 neurons – Layer 1
 -	30 neurons – Layer 2
@@ -51,4 +61,3 @@ Loss:0.5529584884643555, Accuracy: 0.7275510430335999
 The best accuracy rate for all tested models is noted at .73, but with small improvements in each test. 
 Summary
 The average accuracy rate for all models was 73%, with notable improvements for each test.  Perhaps an improvement of features would create a better testing environment. For instance: what is the measurement of success and what leads to success? How many of these features tend to be present for those that are successful. A more in-depth study, based on the accuracy rate that was drawn from the current study is recommended.
-
